@@ -231,11 +231,11 @@ sense_resistor: 0.150
 uart_address:3
 stealthchop_threshold: 999999 
 #--------------------------------------------------------------------
-[filament_switch_sensor filament_sensor]
-pause_on_runout: True
-event_delay: 3.0
-pause_delay: 0.5
-switch_pin: PE9
+#[filament_switch_sensor filament_sensor]
+#pause_on_runout: True
+#event_delay: 3.0
+#pause_delay: 0.5
+#switch_pin: PE9
 
 [thermistor my_thermistor]
 temperature1:25
