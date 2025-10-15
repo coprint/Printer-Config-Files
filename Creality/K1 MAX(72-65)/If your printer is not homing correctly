@@ -1,0 +1,1 @@
+If your printer is not homing correctly, update the printer.cfg file by setting rotation_distance: 40 under the [stepper_x] section and driver_SGTHRS: 75 under the [tmc2209 stepper_x] section.
